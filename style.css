@@ -20,7 +20,7 @@ min-width: 120px;             /* Largeur minimale des liens */
 margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
 padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
 text-align:center;           /* Centrage du texte */   
-color: #da0bda8e;                  /* Couleur du texte */
+color: #fff8ff8e;                  /* Couleur du texte */
 text-decoration: none;        /* Suppression du soulignement */
 border: 1px solid #f70505;       /* Ajout d'une bordure */
 border-radius: 4px;           /* Arrondis des bordures */
@@ -45,8 +45,8 @@ min-width: 120px;             /* Largeur minimale des liens */
 margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
 padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
 text-align: center;           /* Centrage du texte */   
-color: #4100f3fd;                  /* Couleur du texte */
-background-color: #6c656598;       /*couleur de l'arrière plan*/
+color: #fffffffd;                  /* Couleur du texte */
+background-color: #ff93e498;       /*couleur de l'arrière plan*/
 text-decoration: none;        /* Suppression du soulignement */
 border: 1px solid #e3e3e398;       /* Ajout d'une bordure */
 border-radius: 4px;           /* Arrondis des bordures */
@@ -70,6 +70,13 @@ h1{
       ;border-radius: 90px 90px 90px 90px;
   font-size: 90px;
 }
-a{color:blue}      
+     
   
-  
+   .a:hover {
+    background-color: #ffffffb4;
+    color: #e41515;
+    border-color: #b9bebb9f;
+    transition: all 2s ;          /* Ajout des effets de transition */
+background:rgba(255, 255, 255, 0.275) ; 
+}
+a{color: blue;}
