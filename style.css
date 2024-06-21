@@ -51,7 +51,7 @@ text-decoration: none;        /* Suppression du soulignement */
 border: 1px solid #e3e3e398;       /* Ajout d'une bordure */
 border-radius: 4px;           /* Arrondis des bordures */
 transition: all 2s ;          /* Ajout des effets de transition */
-background:rgba(255, 255, 255, 0.275;)}
+background:rgba(255, 255, 255, 0.275) ;}
 p{
    
         font-family: "Bebas Neue", sans-serif;
